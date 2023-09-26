@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            font-size: 24px;
+        }
+        label {
+            font-weight: bold;
+        }
+        input[type="text"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        button {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+    </header>
+    <div class="container">
+        <h2>Contact Form</h2>
+        <form action="eyad.php" method="POST">
+               <div>
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" required placeholder="Example: Eyad Ashraf">
+               </div>
+               <br>
+               <div>
+            <label for="username">username</label>
+            <input type="text" id="username" name="username" required placeholder="Your account on the site">
+               </div>
+               <br>
+               <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required placeholder="Real email">
+               </div>
+               <br>
+                       <div>
+                <label for="language">language</label>
+                <select name="language" id="rgy">
+                    <optgroup label="Fastest support">
+                    <option value="option1"select>English</option>
+                    <option value="option1">Hebrew</option>
+                    <option value="option1">Arabic</option>
+                    <optgroup label="All languages">
+                    <option value="option1">Afrikaans</option>
+                    <option value="option1">Akan</option>
+                    <option value="option1">Albanian</option>
+                    <option value="option1">Amharic</option>
+                    <option value="option1">Arabic</option>
+                    <option value="option1">Armenian</option>
+                    <option value="option1">Assamese</option>
+                    <option value="option1">Aymara</option>
+                    <option value="option1">Azerbaijani</option>
+                    <option value="option1">Bambara</option>
+                    <option value="option1">bangla</option>
+                    <option value="option1">Basque</option>
+                    <option value="option1">Belarusian</option>
+                    <option value="option1">Bhojpuri</option>
+                    <option value="option1">Bosnian</option>
+                    <option value="option1">Bulgarian</option>
+                    <option value="option1">Burmese</option>
+                    <option value="option1">Catalan</option>
+                    <option value="option1">Cebuano</option>
+                    <option value="option1">Chinese (simplified)</option>
+                    <option value="option1">Chinese (Traditional)</option>
+                    <option value="option1">Corsican</option>
+                    <option value="option1">Croatian</option>
+                    <option value="option1">Czech</option>
+                    <option value="option1">Danish</option>
+                    <option value="option1">Dogri</option>
+                    <option value="option1">Dutch</option>
+                    <option value="option1">English</option>
+                    <option value="option1">Esperanto</option>
+                    <option value="option1">Estonian</option>
+                    <option value="option1">Filipino</option>
+                    <option value="option1">Finnish</option>
+                    <option value="option1">French</option>
+                    <option value="option1">Friesian</option>
+                    <option value="option1">Galician</option>
+                    <option value="option1">Ganda</option>
+                    <option value="option1">Georgian</option>
+                    <option value="option1">German</option>
+                    <option value="option1">Greek</option>
+                    <option value="option1">Guarani</option>
+                    <option value="option1">Gujarati</option>
+                    <option value="option1">Haitian Creole</option>
+                    <option value="option1">Hausa</option>
+                    <option value="option1">Hawaiian language</option>
+                    <option value="option1">Hebrew</option>
+                    <option value="option1">Hindi</option>
+                    <option value="option1">Hmong</option>
+                    <option value="option1">Hungarian</option>
+                    <option value="option1">Icelandic</option>
+                    <option value="option1">Igbo</option>
+                    <option value="option1">Iloko</option>
+                    <option value="option1">Indonesian</option>
+                    <option value="option1">Irish</option>
+                    <option value="option1">Italian</option>
+                    <option value="option1">Japanese</option>
+                    <option value="option1">Javanese</option>
+                    <option value="option1">Kannada</option>
+                    <option value="option1">Kazakh</option>
+                    <option value="option1">Khmer</option>
+                    <option value="option1">Kinyarwanda</option>
+                    <option value="option1">Korean</option>
+                    <option value="option1">Kurdish</option>
+                    <option value="option1">Kyrgyz</option>
+                    <option value="option1">Latin</option>
+                    <option value="option1">Latvian</option>
+                    <option value="option1">Leviticus</option>
+                    <option value="option1">Lingala</option>
+                    <option value="option1">Lithuanian</option>
+                    <option value="option1">Luxembourgish</option>
+                    <option value="option1">Macedonian</option>
+                    <option value="option1">Maithili</option>
+                    <option value="option1">Malagasy</option>
+                    <option value="option1">Malayalam</option>
+                    <option value="option1">Malaysian</option>
+                    <option value="option1">Maldivian</option>
+                    <option value="option1">Maltese</option>
+                    <option value="option1">Manipuri</option>
+                    <option value="option1">Marathi</option>
+                    <option value="option1">Miso</option>
+                    <option value="option1">Mongolian</option>
+                    <option value="option1">Māori</option>
+                    <option value="option1">Nepali</option>
+                    <option value="option1">Northern Sotho</option>
+                    <option value="option1">Norwegian</option>
+                    <option value="option1">Nyanja</option>
+                    <option value="option1">Oriya</option>
+                    <option value="option1">Oromo</option>
+                    <option value="option1">Pashto</option>
+                    <option value="option1">Persian</option>
+                    <option value="option1">Polish</option>
+                    <option value="option1">Portuguese</option>
+                    <option value="option1">Punjabi</option>
+                    <option value="option1">Quechua</option>
+                    <option value="option1">Romanian</option>
+                    <option value="option1">Russian</option>
+                    <option value="option1">Samoanism</option>
+                    <option value="option1">Sanskrit</option>
+                    <option value="option1">Scottish Gaelic</option>
+                    <option value="option1">Serbian</option>
+                    <option value="option1">Shona</option>
+                    <option value="option1">Sindhi</option>
+                    <option value="option1">Sinhala</option>
+                    <option value="option1">Slovak</option>
+                    <option value="option1">Slovenian</option>
+                    <option value="option1">Somali</option>
+                    <option value="option1">Sonja</option>
+                    <option value="option1">Sorani Kurdish</option>
+                    <option value="option1">Southern Sotho</option>
+                    <option value="option1">Spanish</option>
+                    <option value="option1">Sundanese</option>
+                    <option value="option1">Swahili</option>
+                    <option value="option1">Swedish</option>
+                    <option value="option1">Tajik</option>
+                    <option value="option1">Tamil</option>
+                    <option value="option1">Tatar</option>
+                    <option value="option1">Telugu</option>
+                    <option value="option1">Thai</option>
+                    <option value="option1">The Ewe</option>
+                    <option value="option1">Tigrinya</option>
+                    <option value="option1">Turkish</option>
+                    <option value="option1">Turkmen</option>
+                    <option value="option1">Ukrainian</option>
+                    <option value="option1">Urdu</option>
+                    <option value="option1">Uyghur</option>
+                    <option value="option1">Uzbek</option>
+                    <option value="option1">Vietnamese</option>
+                    <option value="option1">Welsh</option>
+                    <option value="option1">Xhosa</option>
+                    <option value="option1">Yiddish</option>
+                    <option value="option1">Yoruba</option>
+                    <option value="option1">Zulu</option>
+                </select>
+            </div>
+            <br>
+            <div class="form-group">
+                <label for="Country">Country</label>
+                <select name="Country" id="rgy">
+                    <optgroup label="All countries"></optgroup>
+                    <option value="option1">another planet</option>
+                    <option value="option1">Afghanistan</option>
+                    <option value="option1">Albania</option>
+                    <option value="option1">Algeria</option>
+                    <option value="option1">Andorra</option>
+                    <option value="option1">Angola</option>
+                    <option value="option1">Antigua and Barbuda</option>
+                    <option value="option1">Argentina</option>
+                    <option value="option1">Armenia</option>
+                    <option value="option1">Australia</option>
+                    <option value="option1">Austria</option>
+                    <option value="option1">Azerbaijan</option>
+                    <option value="option1">Bahamas</option>
+                    <option value="option1">Bahrain</option>
+                    <option value="option1">Bangladesh</option>
+                    <option value="option1">Barbados</option>
+                    <option value="option1">Belarus</option>
+                    <option value="option1">Belgium</option>
+                    <option value="option1">Belize</option>
+                    <option value="option1">Benin</option>
+                    <option value="option1">Bhutan</option>
+                    <option value="option1">Bolivia</option>
+                    <option value="option1">Bosnia and Herzegovina</option>
+                    <option value="option1">Botswana</option>
+                    <option value="option1">Brazil</option>
+                    <option value="option1">Brunei</option>
+                    <option value="option1">Bulgaria</option>
+                    <option value="option1">Burkina Faso</option>
+                    <option value="option1">Burundi</option>
+                    <option value="option1">Côte d'Ivoire Ivory Coast</option>
+                    <option value="option1">Cabo Verde</option>
+                    <option value="option1">Cambodia</option>
+                    <option value="option1">Cameroon</option>
+                    <option value="option1">Canada</option>
+                    <option value="option1">Central African Republic</option>
+                    <option value="option1">Chad</option>
+                    <option value="option1">Chile</option>
+                    <option value="option1">China</option>
+                    <option value="option1">Colombia</option>
+                    <option value="option1">Comoros</option>
+                    <option value="option1">Congo</option>
+                    <option value="option1">Costa Rica</option>
+                    <option value="option1">Croatia</option>
+                    <option value="option1">Cuba</option>
+                    <option value="option1">Cyprus</option>
+                    <option value="option1">Czechia</option>
+                    <option value="option1">Democratic Republic of the Congo</option>
+                    <option value="option1">Denmark</option>
+                    <option value="option1">Djibouti</option>
+                    <option value="option1">Dominica</option>
+                    <option value="option1">Dominican Republic</option>
+                    <option value="option1">Ecuador</option>
+                    <option value="option1">Egypt</option>
+                    <option value="option1">El Salvador</option>
+                    <option value="option1">Equatorial Guinea</option>
+                    <option value="option1">Eritrea</option>
+                    <option value="option1">Estonia</option>
+                    <option value="option1">Eswatini</option>
+                    <option value="option1">Ethiopia</option>
+                    <option value="option1">Fiji</option>
+                    <option value="option1">Finland</option>
+                    <option value="option1">France</option>
+                    <option value="option1">Gabon</option>
+                    <option value="option1">Gambia</option>
+                    <option value="option1">Georgia</option>
+                    <option value="option1">Germany</option>
+                    <option value="option1">Ghana</option>
+                    <option value="option1">Greece</option>
+                    <option value="option1">Grenada</option>
+                    <option value="option1">Guatemala</option>
+                    <option value="option1">Guinea</option>
+                    <option value="option1">Guinea-Bissau</option>
+                    <option value="option1">Guyana</option>
+                    <option value="option1">Haiti</option>
+                    <option value="option1">Holy See</option>
+                    <option value="option1">Honduras</option>
+                    <option value="option1">Hungary</option>
+                    <option value="option1">Iceland</option>
+                    <option value="option1">India</option>
+                    <option value="option1">Indonesia</option>
+                    <option value="option1">Iran</option>
+                    <option value="option1">Iraq</option>
+                    <option value="option1">Ireland</option>
+                    <option value="option1">Israel</option>
+                    <option value="option1">Italy</option>
+                    <option value="option1">Jamaica</option>
+                    <option value="option1">Japan</option>
+                    <option value="option1">Jordan</option>
+                    <option value="option1">Kazakhstan</option>
+                    <option value="option1">Kenya</option>
+                    <option value="option1">Kiribati</option>
+                    <option value="option1">Kuwait</option>
+                    <option value="option1">Kyrgyzstan</option>
+                    <option value="option1">Laos</option>
+                    <option value="option1">Latvia</option>
+                    <option value="option1">Lebanon</option>
+                    <option value="option1">Lesotho</option>
+                    <option value="option1">Liberia</option>
+                    <option value="option1">Libya</option>
+                    <option value="option1">Liechtenstein</option>
+                    <option value="option1">Lithuania</option>
+                    <option value="option1">Luxembourg</option>
+                    <option value="option1">Madagascar</option>
+                    <option value="option1">Malawi</option>
+                    <option value="option1">Malaysia</option>
+                    <option value="option1">Maldives</option>
+                    <option value="option1">Mali</option>
+                    <option value="option1">Malta</option>
+                    <option value="option1">Marshall Islands</option>
+                    <option value="option1">Mauritania</option>
+                    <option value="option1">Mauritius</option>
+                    <option value="option1">Mexico</option>
+                    <option value="option1">Micronesia</option>
+                    <option value="option1">Moldova</option>
+                    <option value="option1">Monaco</option>
+                    <option value="option1">Mongolia</option>
+                    <option value="option1">Montenegro</option>
+                    <option value="option1">Morocco</option>
+                    <option value="option1">Mozambique</option>
+                    <option value="option1">Myanmar  formerly Burma</option> 
+                    <option value="option1">Namibia</option>
+                    <option value="option1">Nauru</option>
+                    <option value="option1">Nepal</option>
+                    <option value="option1">Netherlands</option>
+                    <option value="option1">New Zealand</option>
+                    <option value="option1">Nicaragua</option>
+                    <option value="option1">Niger</option>
+                    <option value="option1">Nigeria</option>
+                    <option value="option1">North Korea</option>
+                    <option value="option1">North Macedonia</option>
+                    <option value="option1">Norway</option>
+                    <option value="option1">Oman</option>
+                    <option value="option1">Pakistan</option>
+                    <option value="option1">Palau</option>
+                    <option value="option1">Palestine State</option>
+                    <option value="option1">Panama</option>
+                    <option value="option1">Papua New Guinea</option>
+                    <option value="option1">Paraguay</option>
+                    <option value="option1">Peru</option>
+                    <option value="option1">Philippines</option>
+                    <option value="option1">Poland</option>
+                    <option value="option1">Portugal</option>
+                    <option value="option1">Qatar</option>
+                    <option value="option1">Romania</option>
+                    <option value="option1">Russia</option>
+                    <option value="option1">Rwanda</option>
+                    <option value="option1">Saint Kitts and Nevis</option>
+                    <option value="option1">Saint Lucia
+                    <option value="option1">Saint Vincent and the Grenadines</option>
+                    <option value="option1">Samoa</option>
+                    <option value="option1">San Marino</option>
+                    <option value="option1">Sao Tome and Principe</option>
+                    <option value="option1">Saudi Arabia</option>
+                    <option value="option1">Senegal</option>
+                    <option value="option1">Serbia</option>
+                    <option value="option1">Seychelles</option>
+                    <option value="option1">Sierra Leone</option>
+                    <option value="option1">Singapore</option>
+                    <option value="option1">Slovakia</option>
+                    <option value="option1">Slovenia</option>
+                    <option value="option1">Solomon Islands</option>
+                    <option value="option1">Somalia</option>
+                    <option value="option1">South Africa</option>
+                    <option value="option1">South Korea</option>
+                    <option value="option1">South Sudan</option>
+                    <option value="option1">Spain</option>
+                    <option value="option1">Sri Lanka</option>
+                    <option value="option1">Sudan</option>
+                    <option value="option1">Suriname</option>
+                    <option value="option1">Sweden</option>
+                    <option value="option1">Switzerland</option>
+                    <option value="option1">Syria</option>
+                    <option value="option1">Tajikistan</option>
+                    <option value="option1">Tanzania</option>
+                    <option value="option1">Thailand</option>
+                    <option value="option1">Timor-Leste</option>
+                    <option value="option1">Togo</option>
+                    <option value="option1">Tonga</option>
+                    <option value="option1">Trinidad and Tobago</option>
+                    <option value="option1">Tunisia</option>
+                    <option value="option1">Turkey</option>
+                    <option value="option1">Turkmenistan</option>
+                    <option value="option1">Tuvalu</option>
+                    <option value="option1">Uganda</option>
+                    <option value="option1">Ukraine</option>
+                    <option value="option1">United Arab Emirates</option>
+                    <option value="option1">United Kingdom</option>
+                    <option value="option1"select>United States of America</option>
+                    <option value="option1">Uruguay</option>
+                    <option value="option1">Uzbekistan</option>
+                    <option value="option1">Vanuatu</option>
+                    <option value="option1">Venezuela</option>
+                    <option value="option1">Vietnam</option>
+                    <option value="option1">Yemen</option>
+                    <option value="option1">Zambia</option>
+                    <option value="option1">Zimbabwe</option> 
+                </select>
+            </div>  
+            <br>
+            <div>
+                <input id="Email support" type="checkbox" name="Email support" checked/>
+                <label for="Email support">Email support</label>
+               </div>  
+               <br>             
+               <div>
+                <input id="Phone support" type="checkbox" name="Phone support"checked/>
+                <label for="Phone support">Phone support</label>
+               </div>
+               <br>
+               <div>
+                <input id="Social media support" type="checkbox" name="Social media support"checked/>
+                <label for="Social media support">Social media support</label>
+               </div>
+               <br>
+            <div class="form-group">
+                <label for="eg">age</label>
+                <select name="EG" id="rgy">
+                    <option value="option1">18</option>
+                    <option value="option2">19</option>
+                    <option value="Eyadgroup20">20</option>
+                    <option value="Eyadgroup20">20</option>
+<option value="Eyadgroup21">21</option>
+<option value="Eyadgroup22">22</option>
+<option value="Eyadgroup23">23</option>
+<option value="Eyadgroup24">24</option>
+<option value="Eyadgroup25">25</option>
+<option value="Eyadgroup26">26</option>
+<option value="Eyadgroup27">27</option>
+<option value="Eyadgroup28">28</option>
+<option value="Eyadgroup29">29</option>
+<option value="Eyadgroup30">30</option>
+<option value="Eyadgroup31">31</option>
+<option value="Eyadgroup32">32</option>
+<option value="Eyadgroup33">33</option>
+<option value="Eyadgroup34">34</option>
+<option value="Eyadgroup35">35</option>
+<option value="Eyadgroup36">36</option>
+<option value="Eyadgroup37">37</option>
+<option value="Eyadgroup38">38</option>
+<option value="Eyadgroup39">39</option>
+<option value="Eyadgroup40">40</option>
+<option value="Eyadgroup41">41</option>
+<option value="Eyadgroup42">42</option>
+<option value="Eyadgroup43">43</option>
+<option value="Eyadgroup44">44</option>
+<option value="Eyadgroup45">45</option>
+<option value="Eyadgroup46">46</option>
+<option value="Eyadgroup47">47</option>
+<option value="Eyadgroup48">48</option>
+<option value="Eyadgroup49">49</option>
+<option value="Eyadgroup50">50</option>
+<option value="Eyadgroup51">51</option>
+<option value="Eyadgroup52">52</option>
+<option value="Eyadgroup53">53</option>
+<option value="Eyadgroup54">54</option>
+<option value="Eyadgroup55">55</option>
+<option value="Eyadgroup56">56</option>
+<option value="Eyadgroup57">57</option>
+<option value="Eyadgroup58">58</option>
+<option value="Eyadgroup59">59</option>
+<option value="Eyadgroup60">60</option>
+<option value="Eyadgroup61">61</option>
+<option value="Eyadgroup62">62</option>
+<option value="Eyadgroup63">63</option>
+<option value="Eyadgroup64">64</option>
+<option value="Eyadgroup65">65</option>
+<option value="Eyadgroup66">66</option>
+<option value="Eyadgroup67">67</option>
+<option value="Eyadgroup68">68</option>
+<option value="Eyadgroup69">69</option>
+<option value="Eyadgroup70">70</option>
+<option value="Eyadgroup71">71</option>
+<option value="Eyadgroup72">72</option>
+<option value="Eyadgroup73">73</option>
+<option value="Eyadgroup74">74</option>
+<option value="Eyadgroup75">75</option>
+<option value="Eyadgroup76">76</option>
+<option value="Eyadgroup77">77</option>
+<option value="Eyadgroup78">78</option>
+<option value="Eyadgroup79">79</option>
+<option value="Eyadgroup80">80</option>
+<option value="Eyadgroup81">81</option>
+<option value="Eyadgroup82">82</option>
+<option value="Eyadgroup83">83</option>
+<option value="Eyadgroup84">84</option>
+<option value="Eyadgroup85">85</option>
+<option value="Eyadgroup86">86</option>
+<option value="Eyadgroup87">87</option>
+<option value="Eyadgroup88">88</option>
+<option value="Eyadgroup89">89</option>
+<option value="Eyadgroup90">90</option>
+<option value="Eyadgroup91">91</option>
+<option value="Eyadgroup92">92</option>
+<option value="Eyadgroup93">93</option>
+<option value="Eyadgroup94">94</option>
+<option value="Eyadgroup95">95</option>
+<option value="Eyadgroup96">96</option>
+<option value="Eyadgroup97">97</option>
+<option value="Eyadgroup98">98</option>
+<option value="Eyadgroup99">99</option>
+<option value="Eyadgroup100">100</option>
+             </select>
+            </div>
+             <br>
+               <div>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="11" required></textarea>
+               <div>
+            <label>ScreenShot</label>
+            <input type="file">
+                </div>
+            <br>
+                <div>
+            <label>Url</label>
+            <input type="url">
+                  </div>
+            <br>
+            <div>
+            <button type="send">Send</button>
+            <button type="reset">reset</button>
+               </div>
+        </form>
+    </div>
+</body>
+</html>
